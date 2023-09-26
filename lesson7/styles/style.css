@@ -1,0 +1,29 @@
+#calculatorInput {
+    background-color: rgb(223, 14, 14);
+    padding: 10px;
+}
+
+.clacItems {
+    display: flex;
+}
+
+.clacItems button {
+    padding: 10px 10px 8px 8px;
+    background-color: antiquewhite;
+    border-right: solid 1px;
+}
+
+.numbers {
+    display: grid;
+    /* row-gap: 1fr 1fr; */
+    grid-template-columns: auto auto auto;
+}
+
+.mergerDiv {
+    display: flex;
+}
+
+.mergerN1 {
+    display: flex;
+    flex-wrap:wrap;
+}
