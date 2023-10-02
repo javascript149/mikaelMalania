@@ -1,0 +1,29 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+
+        <select id="selectMenu1">
+            <option value="bitcoin">Bitcoin</option>
+            <option value="eth">Ethereum</option>
+            <option value="xrp">Ripple</option>
+        </select>
+        <input type="text" id="asset1">
+        <br>
+        <br>
+        <select id="selectMenu2">
+            <option value="bitcoin">Bitcoin</option>
+            <option value="eth">Ethereum</option>
+            <option value="xrp">Ripple</option>
+        </select>
+
+        <input type="text" id="asset2">
+        <br>
+        <br>
+        <input type="submit" value="Convert!" onclick="getTokenPrices()">
+
+        <script src="/scripts/apiPrice.js" type="text/javascript"></script>
+    </body>
+</html>

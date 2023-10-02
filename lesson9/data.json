@@ -1,0 +1,13 @@
+{
+    "name": "Alberth",
+    "surname": "einstein",
+    "lifeWorks": [
+        "Work1",
+        "Work2",
+        "Work3"
+    ],
+    "placesWhereHeLived": {
+        "Germany": "live there for 25 years",
+        "usa": "Lived there for whole rest of his life"
+    }
+}
