@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            #myInput {
+                background-image: url();
+                background-position: 10px 12px;
+                background-repeat: no-repeat;
+                width: 100%;
+                font-size: 18px;
+                padding: 14px 22px 14px 44px;
+                border: 2px solid #ddd;
+            }
+
+            #myProducts {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            #myProducts li a {
+                border: 2px solid #ddd;
+                margin-top: -1px;
+                background-color: #cfcccc;
+                padding: 14px;
+                text-decoration: none;
+                font-size: 20px;
+                color: black;
+                display: block;
+            }
+
+        </style>
+    </head>
+    <body>
+        <script src="/scripts/filter.js" defer></script>
+
+        <input type="text" id="myInput" onkeyup="listFiler()" placeholder="Search for products by name">
+
+        <ul id="myProducts">
+            <li><a href="#">Turtleneck</a></li>
+            <li><a href="#">Long sleeve</a></li>
+
+            <li><a href="#">shirts</a></li>
+            <li><a href="#">pants</a></li>
+
+            <li><a href="#">large fit</a></li>
+            <li><a href="#">slim fit</a></li>
+            <li><a href="#">jacket</a></li>
+
+        </ul>
+
+    </body>
+
+</html>
